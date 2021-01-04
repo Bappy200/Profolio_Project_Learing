@@ -8,7 +8,10 @@ h1{
     font-weight: 700;
     text-transform: uppercase;
 }
-.name-highlight{
+p{
+    color: rgb(61, 53, 53);
+}
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -30,6 +33,7 @@ section{
    
 }
 
+
 .top-btn{
     padding: 8px 20px;
     background-image: linear-gradient(45deg,#4e73e0,#ae4ee0);
@@ -40,7 +44,49 @@ section{
     text-decoration: none;
 }
 
+.dream-area{
+    height: 500px;
+    background:url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-width h2{
+    text-transform: uppercase;
+    font-weight: 700;
+}
 .half-width h3{
     text-transform: capitalize;
     font-weight: 600;
+}
+.exprence{
+    background: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.title{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.single-exprence{
+    box-shadow: 1px 1px 10px #3333;
+    height: 50%;
+    padding: 20px;
+    border-radius: 10px;
+}
+#full-stack{
+    border-left:10px solid;
+    border-image: linear-gradient(lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left:10px solid;
+    border-image: linear-gradient(45deg,rgb(122, 255, 255),rgb(5, 255, 151));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
+footer p{
+    text-transform: capitalize;
 }
